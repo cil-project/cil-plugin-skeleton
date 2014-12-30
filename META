@@ -1,0 +1,4 @@
+version = "0.1"
+description = "count and display the number of function calls"
+archive(byte,plugin) = "countCalls.cma"
+archive(native,plugin) = "countCalls.cmxs"
