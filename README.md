@@ -35,7 +35,7 @@ recommended to use the following `configure` invocation:
 ## Writing your plugin
 
 This is very similar to writing a CIL feature for CIL ≤ 1.7.3.
-See [countCalls.ml](#file-countcalls-ml) for an example. The
+See [countCalls.ml](countCalls.ml) for an example. The
 significant changes in the API are:
 
 + `open Feature` in addition to `open Cil`;
@@ -58,7 +58,7 @@ You can of course compile using any other tool (Makefile, CMake, oasis, etc.).
 ## Installing your plugin (optional)
 
 To make your plugin globally available and use it more easily, you need
-to write a [META](#file-meta) file. Then, install your plugin with
+to write a [META](META) file. Then, install your plugin with
 ocamlfind:
 ```
 ocamlfind install countCalls META _build/countCalls.cma _build/countCalls.cmxs
